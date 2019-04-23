@@ -8,7 +8,16 @@ html {
     color: #EFC69B;
 }
 
-.thankyou {}
+.gray {
+
+    color: #ac9292
+}
+
+.thankyou {
+    color: #EFC69B;
+    align-items: center;
+    justify-content: center;
+}
 
 body {
 
@@ -72,11 +81,18 @@ ul {
 }
 
 
+main div form {
+    
+    background-color: rgba(172, 190, 163, 0.35);
+    padding: 1px;
+    margin-top: 40px;
+     
+}
+
 main div p {
 
     display: flex;
     justify-content: center;
-    align-items: center;
 
 }
 
