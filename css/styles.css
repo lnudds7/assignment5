@@ -1,0 +1,102 @@
+html {
+    color: #ccc;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.creamsicle {
+    color: #EFC69B;
+}
+
+.thankyou {}
+
+body {
+
+    background-color: #283845;
+
+}
+
+header {
+
+    display: flex;
+    background-color: #ACBEA3;
+    flex-direction: column;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: bolder
+}
+
+
+header nav {
+
+    flex: 3
+}
+
+main {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+
+
+
+header ul li {
+
+    display: inline;
+    padding-right: 50px;
+
+
+
+}
+
+a {
+
+    color: #40476D;
+    text-decoration: none;
+
+}
+
+a:hover {
+
+    color: #646d5f;
+    transition: color .3s;
+}
+
+
+ul {
+
+    list-style-type: none;
+
+}
+
+
+main div p {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+main p a {
+
+    justify-content: space-between;
+}
+
+
+@media screen and (max-width: 40rem) {
+    header {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 30rem) {
+
+    header,
+    form div {
+        flex-direction: column;
+
+    }
+}

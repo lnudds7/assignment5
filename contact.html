@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Contact Us</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+
+<body>
+
+    <header>
+
+        <a href="index.html">
+            <img src="images/mirror.png" alt="mirror" height="90">
+        </a>
+        <nav>
+            <ul>
+                <li><a href="index.html">Main page</a></li>
+                <li><a href="skincare.html">Skin Care</a></li>
+                <li><a href="everyday.html">Everyday Makeup</a></li>
+                <li><a href="glam.html">Glam Makeup</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div>
+
+        <form action="thankyou.html">
+
+            <p> Give Us Some Feedback!</p>
+
+            <p> <label for="firstname">First Name:</label>
+                <input type="text" name="firstname" id="firstname"></p>
+           
+
+            <p>
+                <label for="lastname">Last Name:</label>
+                <input type="text" name="lastname" id="lastname"> </p>
+            
+
+            <p><label for="email">Email:</label>
+                <input type="text" name="email" id="email"></p>
+            
+
+            <p>
+                <label for="howd-you-get-here">How did you end up here?</label>
+                <select name="howd-you-get-here" id="howd-you-get-here" multiple>
+                    <option value="email">We Somehow Got Your Email</option>
+                    <option value="ad">You Saw Our Brilliant Advertisements</option>
+                    <option value="referral">Some Genius Person Told You About Us</option>
+                    <option value="website">You Searched on Google and We Showed Up</option>
+                </select>
+            </p>
+            
+            <p>
+                <label for="nicecomments">Any nice things you wanna say?</label>
+                <textarea name="nicecomments" id="nicecomments" rows="4" cols="40"></textarea>
+            </p>
+          
+            <p>
+                <label for="criticism">Any constructive criticism?</label>
+                <textarea name="criticism" id="criticism" rows="4" cols="40"></textarea>
+            </p>
+          
+            <p class="radio-buttons">
+                <label>Do you wanna get awesome coupons?</label>
+                <input type="radio" name="join-newsletter" value="Duh" checked>Duh
+                <input type="radio" name="join-newsletter" value="Ew-no" checked>Ew No
+            </p>
+          
+
+            <p class="checkboxes">
+                <label>What do you use most often?</label>
+                <input type="checkbox" name="fav-makeup" value="Makeup">Everyday Makeup
+                <input type="checkbox" name="fav-makeup" value="Glam">Glam Makeup
+                <input type="checkbox" name="fav-makeup" value="Skincare">Skincare
+                <input type="checkbox" name="fav-makeup" value="SPF">SPF
+                <input type="checkbox" name="fav-makeup" value="soap">A Simple Bar of Soap
+                <br>
+            </p>
+            
+            <p>
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+
+            </p>
+           
+        </form>
+     </div>
+    </main>
+
+    <footer>
+
+    </footer>
+
+
+
+
+</body>
+
+</html>
